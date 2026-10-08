@@ -1,0 +1,213 @@
+/**
+ * @file: profile.config.js
+ * @author: H Vamsi Kumar
+ * @summary: Full Stack Developer specializing in MERN Stack development.
+ */
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "React.js",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "React Router",
+    "Context API",
+    "Redux Toolkit"
+  ],
+
+  backend: [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "REST APIs"
+  ],
+
+  concepts: [
+    "CRUD Operations",
+    "Authentication",
+    "API Integration",
+    "State Management",
+    "Responsive Design"
+  ],
+
+  tools: [
+    "Git",
+    "GitHub",
+    "VS Code",
+    "Vite",
+    "npm",
+    "Postman"
+  ]
+};
+
+
+// --------------------------------------------------
+// 2. EXPERIENCE LOG
+// --------------------------------------------------
+
+const experience = {
+  company: "BDreamz Global Solutions Pvt Ltd.",
+  role: "MERN Stack Intern",
+  period: "Apr 2026 - Present",
+
+  work: [
+    "Built responsive web features using React.js, JavaScript, HTML5 and CSS3.",
+    "Developed RESTful APIs using Node.js and Express.js.",
+    "Implemented CRUD operations using MongoDB and Mongoose.",
+    "Connected React frontend with backend APIs.",
+    "Worked with authentication and application state.",
+    "Tested APIs using Postman and fixed application bugs."
+  ]
+};
+
+
+// --------------------------------------------------
+// 3. PROJECTS
+// --------------------------------------------------
+
+const projects = [
+
+  {
+    name: "Insta Clone",
+    type: "Full Stack Social Media Application",
+
+    technologies: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Mongoose",
+      "JWT",
+      "REST APIs"
+    ],
+
+    features: [
+      "JWT Authentication",
+      "bcrypt Password Hashing",
+      "User CRUD",
+      "Post CRUD",
+      "Follow Request System",
+      "Responsive UI"
+    ]
+  },
+
+  {
+    name: "E-Commerce Application",
+    type: "Frontend Web Application",
+
+    technologies: [
+      "React.js",
+      "Vite",
+      "Context API",
+      "React Router",
+      "Tailwind CSS",
+      "Fake Store API"
+    ],
+
+    features: [
+      "Dynamic Products",
+      "Product Details",
+      "Shopping Cart",
+      "Context API State Management",
+      "Reusable Components",
+      "Responsive UI"
+    ]
+  },
+
+  {
+    name: "Mac OS Portfolio",
+    type: "Interactive Portfolio Website",
+
+    technologies: [
+      "React.js",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS"
+    ],
+
+    features: [
+      "macOS Inspired UI",
+      "Desktop Style Interface",
+      "Interactive Windows",
+      "Portfolio Sections",
+      "Responsive Design"
+    ]
+  }
+
+];
+
+
+// --------------------------------------------------
+// 4. EDUCATION
+// --------------------------------------------------
+
+const education = {
+  degree: "B.Tech in Computer Science and Engineering",
+  college: "Sreenivasa Institute of Technology and Management Studies",
+  period: "2022 - 2026",
+  cgpa: "7.98 / 10"
+};
+
+
+// --------------------------------------------------
+// 5. CERTIFICATIONS
+// --------------------------------------------------
+
+const certifications = [
+  {
+    name: "MERN Stack",
+    institute: "Besant Technologies, Chennai",
+    period: "May 2026 - Present"
+  },
+
+  {
+    name: "MERN Stack Development",
+    institute: "Sheryians Coding School",
+    period: "2025 - 2026"
+  }
+];
+
+
+// --------------------------------------------------
+// 6. PROFILE
+// --------------------------------------------------
+
+const profile = {
+  name: "H Vamsi Kumar",
+  role: "Full Stack Developer",
+  specialization: "MERN Stack",
+  experience: "6 Months",
+  location: "Chennai, Navalur",
+
+  lookingFor: [
+    "Full Stack Developer",
+    "MERN Stack Developer",
+    "Frontend Developer"
+  ],
+
+  status: "Open to Opportunities"
+};
+
+
+
+
+
+// --------------------------------------------------
+// EXPORT
+// --------------------------------------------------
+
+export {
+  profile,
+  TECH_STACK,
+  experience,
+  projects,
+  education,
+  certifications
+};

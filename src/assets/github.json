@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1611262588024-d12430b98920?auto=format&fit=crop&q=80&w=1000",
+    "title": "Insta Clone - Full Stack Social Media Application",
+    "description": "A full-stack social media application with JWT authentication, user and post CRUD operations, follow requests, and responsive React interfaces.",
+    "tags": [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Mongoose",
+      "JWT",
+      "REST APIs"
+    ],
+    "repoLink": "https://github.com/Vamsi-kumar-3",
+    "demoLink": null
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=1000",
+    "title": "E-Commerce Application",
+    "description": "A responsive e-commerce application with dynamic product data, product detail pages, centralized shopping-cart state, and a modern Tailwind CSS interface.",
+    "tags": [
+      "React.js",
+      "Vite",
+      "Context API",
+      "React Router",
+      "Tailwind CSS",
+      "Fake Store API"
+    ],
+    "repoLink": "https://github.com/Vamsi-kumar-3",
+    "demoLink": null
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1625842268584-8f3296236761?auto=format&fit=crop&q=80&w=1000",
+    "title": "Mac OS Portfolio",
+    "description": "An interactive portfolio website inspired by the macOS desktop experience, featuring a desktop-style interface and interactive application windows.",
+    "tags": [
+      "React.js",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS"
+    ],
+    "repoLink": "https://github.com/Vamsi-kumar-3",
+    "demoLink": null
+  }
+]
